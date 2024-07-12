@@ -6,6 +6,3 @@ async def countdown(n): # async - function name
         print(i)
       
 asyncio.run(countdown(10)) # asyncio to run the function 
-
-
-    
