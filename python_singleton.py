@@ -14,9 +14,9 @@ class SingletonCounter:
         self.count += 1
         return self.count
 
-# Example usage:
+ 
 counter = SingletonCounter.get_instance()
-print(counter.increment_count())  # Output: 1
-print(counter.increment_count())  # Output: 2
-print(counter.increment_count())  # Output: 3
-print(counter.increment_count())  # Output: 4
+print(counter.increment_count())  
+print(counter.increment_count())   
+print(counter.increment_count())   
+print(counter.increment_count())  
